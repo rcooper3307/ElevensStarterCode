@@ -35,6 +35,8 @@ public class Card {
      */
     public Card(String cardRank, String cardSuit, int cardPointValue) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+
+
     }
 
 
@@ -53,7 +55,7 @@ public class Card {
      */
     public String rank() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-
+return rank;
     }
 
     /**
@@ -62,7 +64,7 @@ public class Card {
      */
     public int pointValue() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-
+return pointValue;
     }
 
     /** Compare this card with the argument.
@@ -75,6 +77,7 @@ public class Card {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
 
     }
+
 
     /**
      * Converts the rank, suit, and point value into a string in the format
